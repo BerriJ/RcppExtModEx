@@ -1,0 +1,3 @@
+useDynLib(anRpackage, .registration=TRUE)
+import(methods, Rcpp)
+exportPattern("^[[:alpha:]]+")

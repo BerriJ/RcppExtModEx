@@ -1,3 +1,4 @@
 /.devcontainer
 /Read-and-delete-me
 *.o
+*.so

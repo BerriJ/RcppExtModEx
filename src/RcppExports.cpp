@@ -23,8 +23,11 @@ BEGIN_RCPP
 END_RCPP
 }
 
+RcppExport SEXP _rcpp_module_boot_FooEx();
+
 static const R_CallMethodDef CallEntries[] = {
     {"_anRpackage_in_and_out", (DL_FUNC) &_anRpackage_in_and_out, 1},
+    {"_rcpp_module_boot_FooEx", (DL_FUNC) &_rcpp_module_boot_FooEx, 0},
     {NULL, NULL, 0}
 };
 

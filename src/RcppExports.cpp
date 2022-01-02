@@ -2,7 +2,6 @@
 // Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 #include "../inst/include/anRpackage.h"
-#include <RcppArmadillo.h>
 #include <Rcpp.h>
 
 using namespace Rcpp;
@@ -13,22 +12,19 @@ Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 #endif
 
 // in_and_out
-std::map<std::string, arma::vec> in_and_out(std::map<std::string, arma::vec>& map);
-RcppExport SEXP _anRpackage_in_and_out(SEXP mapSEXP) {
+std::map<std::string, Rcpp::NumericVector> in_and_out(std::map<std::string, Rcpp::NumericVector> mymap);
+RcppExport SEXP _anRpackage_in_and_out(SEXP mymapSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< std::map<std::string, arma::vec>& >::type map(mapSEXP);
-    rcpp_result_gen = Rcpp::wrap(in_and_out(map));
+    Rcpp::traits::input_parameter< std::map<std::string, Rcpp::NumericVector> >::type mymap(mymapSEXP);
+    rcpp_result_gen = Rcpp::wrap(in_and_out(mymap));
     return rcpp_result_gen;
 END_RCPP
 }
 
-RcppExport SEXP _rcpp_module_boot_FooEx();
-
 static const R_CallMethodDef CallEntries[] = {
     {"_anRpackage_in_and_out", (DL_FUNC) &_anRpackage_in_and_out, 1},
-    {"_rcpp_module_boot_FooEx", (DL_FUNC) &_rcpp_module_boot_FooEx, 0},
     {NULL, NULL, 0}
 };
 

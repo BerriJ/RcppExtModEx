@@ -1,7 +1,6 @@
-#include <RcppArmadillo.h>
+#include <anRpackage.h>
 
 // [[Rcpp::export]]
-std::map<std::string, arma::vec> in_and_out(std::map<std::string, arma::vec> &map)
-{
-    return map;
+std::map<std::string, Rcpp::NumericVector> in_and_out(std::map<std::string, Rcpp::NumericVector> mymap) {
+    return mymap;
 }

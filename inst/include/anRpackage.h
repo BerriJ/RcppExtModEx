@@ -13,7 +13,7 @@ namespace Rcpp
 
         std::map<std::string, arma::vec> map;
 
-        for (unsigned int n = 0; n < mat.ncol(); n++)
+        for (int n = 0; n < mat.ncol(); n++)
         {
             map[cn[n]] = mat.column(n);
         }
@@ -38,16 +38,16 @@ namespace Rcpp
             values.push_back(x.second);
         }
         // Fill the matrix
-        for (unsigned int n = 0; n < mat.ncol(); n++)
+        for (int n = 0; n < mat.ncol(); n++)
         {
-            for (unsigned int m = 0; m < mat.nrow(); m++)
+            for (int m = 0; m < mat.nrow(); m++)
             {
                 mat(m, n) = values[n](m);
             }
         }
         // Set column names
         Rcpp::CharacterVector colnames(keys.size());
-        for (unsigned int n = 0; n < keys.size(); n++)
+        for (int n = 0; n < keys.size(); n++)
         {
             colnames[n] = keys[n];
         }

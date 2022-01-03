@@ -9,7 +9,7 @@ This Repository contains a demo package which demonstrates:
 # Run It
 
 ```
-remotes::install_github("BeriJ/RcppFoo")
+remotes::install_github("BerriJ/RcppFoo")
 library(RcppFoo)
 
 A <- matrix(1:9, ncol = 3, dimnames = list(NULL, c("a", "b", "c")))

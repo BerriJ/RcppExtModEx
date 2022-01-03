@@ -2,6 +2,7 @@
 #include "foo.h"
 #include "RcppFoo_types.h"
 
+//' @export
 // [[Rcpp::export]]
 std::map<std::string, arma::colvec> mapIn_and_mapOut(
     const std::map<std::string, arma::colvec> &mymap)
@@ -9,6 +10,7 @@ std::map<std::string, arma::colvec> mapIn_and_mapOut(
     return mymap;
 }
 
+//' @export
 // [[Rcpp::export]]
 Foo makeFoo()
 {
@@ -16,12 +18,14 @@ Foo makeFoo()
     return instance;
 }
 
+//' @export
 // [[Rcpp::export]]
 std::map<std::string, arma::colvec> getMap(Foo &instance)
 {
     return instance.testmap;
 }
 
+//' @export
 // [[Rcpp::export]]
 void setMap(Foo &instance, const std::map<std::string, arma::colvec> &mymap)
 {

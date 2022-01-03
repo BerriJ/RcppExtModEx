@@ -1,13 +1,13 @@
-Package: anRpackage
+Package: RcppFoo
 Type: Package
-Title: What the Package Does in One 'Title Case' Line
+Title: Use Custom "as" and "wrap" handlers with Rcpp Attributes and Modules
 Version: 1.0
 Date: 2022-01-02
-Author: Your Name
-Maintainer: Your Name <your@email.com>
-Description: One paragraph description of what the package does as one or more full sentences.
+Author: Jonathan Berrisch, Dirk Eddelbuettel
+Maintainer: Jonathan Berrisch <jonathan@berrisch.biz>
+Description: This package demonstrates the technical setup. In practice, you would probably want to decide between Attributes and Rcpp. However, it is possible to use both at the same time. Thank you very much, Dirk Eddelbuettel, for the continuous support.
 License: GPL (>= 2)
-Imports: Rcpp, methods
-LinkingTo: Rcpp
+Imports: Rcpp, RcppArmadillo, methods
+LinkingTo: Rcpp, RcppArmadillo
 RoxygenNote: 7.1.2
 Encoding: UTF-8

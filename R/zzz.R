@@ -1,5 +1,5 @@
 ## usethis namespace: start
-#' @useDynLib anRpackage, .registration = TRUE
+#' @useDynLib RcppFoo, .registration = TRUE
 #' @import Rcpp methods
 ## usethis namespace: end
 NULL

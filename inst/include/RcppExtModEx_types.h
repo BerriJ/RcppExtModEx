@@ -1,6 +1,6 @@
 
-#ifndef RcppFoo_types_h
-#define RcppFoo_types_h
+#ifndef RcppExtModEx_types_h
+#define RcppExtModEx_types_h
 
 #include <RcppArmadillo.h>
 

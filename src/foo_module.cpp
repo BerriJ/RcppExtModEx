@@ -1,6 +1,6 @@
 #include <RcppArmadillo.h>
 #include "foo.h"
-#include "RcppFoo_types.h"
+#include "RcppExtModEx_types.h"
 
 RCPP_MODULE(FooEx)
 {

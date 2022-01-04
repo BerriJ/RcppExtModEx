@@ -1,4 +1,4 @@
-Package: RcppFoo
+Package: RcppExtModEx
 Type: Package
 Title: Use Custom "as" and "wrap" handlers with Rcpp Attributes and Modules
 Version: 1.0

@@ -1,5 +1,5 @@
 ## usethis namespace: start
-#' @useDynLib RcppFoo, .registration = TRUE
+#' @useDynLib RcppExtModEx, .registration = TRUE
 #' @import Rcpp methods
 ## usethis namespace: end
 NULL

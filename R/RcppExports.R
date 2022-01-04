@@ -3,21 +3,21 @@
 
 #' @export
 mapIn_and_mapOut <- function(mymap) {
-    .Call(`_RcppFoo_mapIn_and_mapOut`, mymap)
+    .Call(`_RcppExtModEx_mapIn_and_mapOut`, mymap)
 }
 
 #' @export
 makeFoo <- function() {
-    .Call(`_RcppFoo_makeFoo`)
+    .Call(`_RcppExtModEx_makeFoo`)
 }
 
 #' @export
 getMap <- function(instance) {
-    .Call(`_RcppFoo_getMap`, instance)
+    .Call(`_RcppExtModEx_getMap`, instance)
 }
 
 #' @export
 setMap <- function(instance, mymap) {
-    invisible(.Call(`_RcppFoo_setMap`, instance, mymap))
+    invisible(.Call(`_RcppExtModEx_setMap`, instance, mymap))
 }
 

@@ -1,6 +1,6 @@
-\name{RcppFoo-package}
-\alias{RcppFoo-package}
-\alias{RcppFoo}
+\name{RcppExtModEx-package}
+\alias{RcppExtModEx-package}
+\alias{RcppExtModEx}
 \docType{package}
 \title{
   A short title line describing what the package does

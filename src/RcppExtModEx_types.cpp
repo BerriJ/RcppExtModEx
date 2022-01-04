@@ -1,4 +1,4 @@
-#include <RcppFoo_types.h>
+#include <RcppExtModEx_types.h>
 
 namespace Rcpp
 {

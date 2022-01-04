@@ -9,8 +9,8 @@ This Repository contains a demo package which demonstrates:
 # Run It
 
 ```
-remotes::install_github("BerriJ/RcppFoo")
-library(RcppFoo)
+remotes::install_github("BerriJ/RcppExtModEx")
+library(RcppExtModEx)
 
 A <- matrix(1:9, ncol = 3, dimnames = list(NULL, c("a", "b", "c")))
 
@@ -39,4 +39,4 @@ foo$getMap() == foo$testmap
 
 # Contribute
 
-Feel free to [raise an issue](https://github.com/BerriJ/RcppFoo/issues/new) or create a PR. I'm certainly not an expert in using (R)C++, so I'll be glad to make this code even better with you.
+Feel free to [raise an issue](https://github.com/BerriJ/RcppExtModEx/issues/new) or create a PR. I'm certainly not an expert in using (R)C++, so I'll be glad to make this code even better with you.

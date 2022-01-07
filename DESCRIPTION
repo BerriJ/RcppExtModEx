@@ -7,7 +7,7 @@ Author: Jonathan Berrisch, Dirk Eddelbuettel
 Maintainer: Jonathan Berrisch <jonathan@berrisch.biz>
 Description: This package demonstrates the technical setup. In practice, you would probably want to decide between Attributes and Rcpp. However, it is possible to use both at the same time. Thank you very much, Dirk Eddelbuettel, for the continuous support.
 License: GPL (>= 2)
-Imports: Rcpp, RcppArmadillo, methods
+Imports: Rcpp, methods
 LinkingTo: Rcpp, RcppArmadillo
 RoxygenNote: 7.1.2
 Encoding: UTF-8

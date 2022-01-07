@@ -2,3 +2,4 @@
 /Read-and-delete-me
 *.o
 *.so
+.dev/*

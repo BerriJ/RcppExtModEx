@@ -10,3 +10,7 @@ makeFoo()
 This function demonstrates how a Foo object is created and
 returned to R.
 }
+\details{
+Using Foo as C++ return value is possible due to exposing the class
+with RCPP_EXPOSED_CLASS(Foo) in RcppExtModEx_types.h.
+}

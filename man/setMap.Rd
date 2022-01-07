@@ -13,8 +13,11 @@ setMap(instance, mymap)
 in the C++ map.}
 }
 \description{
-This function takes an instance of the Foo class sets testmap
-to the provided matrix field. This is possible due to: 1) exposing Foo by
+This function takes an instance of the Foo class assigns mymap
+to the testmap field.
+}
+\details{
+This is possible due to: 1) exposing Foo by
 setting RCPP_EXPOSED_CLASS(Foo) in RcppExtModEx_types.h, and 2) using
 the custom as handler defined in RcppExtModEx_types.cpp and
 RcppExtModEx_types.h.

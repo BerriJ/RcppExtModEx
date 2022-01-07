@@ -11,7 +11,10 @@ getMap(instance)
 }
 \description{
 This function takes an instance of the Foo class and returns
-the testmap field. This is possible due to: 1) exposing Foo by setting
-RCPP_EXPOSED_CLASS(Foo) in RcppExtModEx_types.h, and 2) using the
-custom wrap handler defined in RcppExtModEx_types.cpp and RcppExtModEx_types.h.
+the testmap field.
+}
+\details{
+What is needed is: 1) exposing Foo by setting
+RCPP_EXPOSED_CLASS(Foo) in RcppExtModEx_types.h, and 2) creating a
+custom wrap handler in RcppExtModEx_types.cpp and RcppExtModEx_types.h.
 }

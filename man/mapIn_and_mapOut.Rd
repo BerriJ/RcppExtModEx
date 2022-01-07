@@ -12,7 +12,11 @@ in the C++ map.}
 }
 \description{
 This function demonstrates how a Matrix is passed to C++ as
-std::map<std::string, arma::colvec>. And how the C++ map is returned to R
-as Matrix. Conversion is automatically handled by Rcpp as and wrap
-functions defined in RcppExtModEx_types.cpp and RcppExtModEx_types.h.
+a map. And how the C++ map is returned to R
+as Matrix.
+}
+\details{
+Conversion from R Matrix to C++ std::map<std::string, arma::colvec>
+is handled by Rcpp as and wrap functions defined in RcppExtModEx_types.cpp
+and RcppExtModEx_types.h.
 }
